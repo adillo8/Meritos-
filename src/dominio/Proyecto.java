@@ -9,7 +9,7 @@ public class Proyecto extends Merito{
         this.financiación=financiación;
     }
     //definir metodo abstracto
-    public float valorar() {
+    public double calcularValoracion() {
         return financiación/100000;
     }
     

@@ -4,12 +4,12 @@ public class Articulo extends Merito{
     //atributos
     protected float impacto;
     //constructor
-    public Articulo(String titulo,float impacto) {
+    public Articulo(String titulo,double impacto) {
         super(titulo);
-        this.impacto=impacto;
+        this.impacto=Float.parseFloat(String.valueOf(impacto));
     }
     //se define el metodo abstracto
-    public float valorar() {
+    public double calcularValoracion() {
         return impacto;
     }
     

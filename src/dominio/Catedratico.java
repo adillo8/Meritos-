@@ -6,12 +6,12 @@ public class Catedratico extends Profesor {
         super(nombre);
     }
 
-    public float valorar() {
-        float suma=0;
+    public double calcularValoracion() {
+        double suma=0;
         for (Merito m: meritos){
-            suma+=m.valorar**2();
+            suma+=Math.pow(m.calcularValoracion(),2);
         }
-        return valoracion;
+        return Math.pow(suma/4,0.5);
     }
 
    

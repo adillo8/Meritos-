@@ -14,5 +14,5 @@ public abstract class Merito {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-    public abstract float valorar();
+    public abstract double calcularValoracion();
 }

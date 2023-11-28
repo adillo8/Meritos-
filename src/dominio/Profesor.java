@@ -10,7 +10,7 @@ public abstract class Profesor {
         this.nombre = nombre;
     }
 
-    public abstract float calcularValoracion();
+    public abstract double calcularValoracion();
     public Profesor annadirMerito(Merito m){
         meritos.add(m);
         return this;
