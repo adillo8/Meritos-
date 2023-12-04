@@ -1,6 +1,7 @@
 package dominio;
+import java.io.Serializable;
 
-public abstract class Merito {
+public abstract class Merito implements Serializable{
     protected String titulo;
     //constructor
     public Merito(String titulo) {

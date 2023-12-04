@@ -1,7 +1,8 @@
 package dominio;
 import java.util.ArrayList;
+import java.io.Serializable;;
 
-public abstract class Profesor {
+public abstract class Profesor implements Serializable {
     protected ArrayList <Merito> meritos =new ArrayList<>();
     protected String nombre;
     //constructor
