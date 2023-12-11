@@ -12,5 +12,8 @@ public class Articulo extends Merito{
     public double calcularValoracion() {
         return impacto;
     }
-    
+    //metodo toString
+    public String toString(){
+        return super.toString() + "\nImpacto: " + impacto;
+    }
 }

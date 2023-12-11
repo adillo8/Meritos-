@@ -12,5 +12,10 @@ public class Proyecto extends Merito{
     public double calcularValoracion() {
         return financiación/100000;
     }
+
+    //metodo toString
+    public String toString(){
+        return super.toString() + "\nFinanciación: " + financiación;
+    }
     
 }

@@ -16,4 +16,9 @@ public abstract class Merito implements Serializable{
         this.titulo = titulo;
     }
     public abstract double calcularValoracion();
+
+    //metodo toString
+    public String toString(){
+        return "Titulo: " + titulo+"\nValoracion: " + calcularValoracion();
+    }
 }
